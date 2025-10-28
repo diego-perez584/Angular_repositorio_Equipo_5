@@ -1,0 +1,29 @@
+/* Fondo general de toda la vista */
+.perfil-container {
+  height: 100vh; /* Ocupa toda la pantalla */
+  background-image: url('assets/img/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Card de perfil */
+.perfil-card {
+  background: rgba(255, 255, 255, 0.9);
+  max-width: 600px;
+  width: 100%;
+  margin: 2rem;
+}
+
+/* Imagen circular */
+.perfil-img {
+  background-image: url('assets/img/diego.jpeg');
+  background-size: cover;
+  background-position: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid var(--bs-primary);
+  display: inline-block;
+}
+
