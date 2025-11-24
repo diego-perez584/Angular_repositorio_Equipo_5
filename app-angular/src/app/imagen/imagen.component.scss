@@ -1,0 +1,11 @@
+.imagen-wrapper { width: 100%; display:flex; justify-content:center; margin-top:28px; }
+.imagen-card {
+  height: 320px;
+  width: min(920px, 95%);
+  border-radius: 16px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  overflow: hidden;
+}
