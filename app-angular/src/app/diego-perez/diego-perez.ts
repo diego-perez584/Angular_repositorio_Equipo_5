@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-diego-perez',         // <- este es el nombre con el que puedes llamarlo en HTML
-  templateUrl: './diego-perez.html', // el HTML asociado
-  styleUrls: ['./diego-perez.scss']   // los estilos asociados
+  selector: 'app-diego-perez',
+  standalone: true,
+  imports: [RouterLink],     // NECESARIO para usar routerLink
+  templateUrl: './diego-perez.html',
+  styleUrl: './diego-perez.scss'
 })
-export class DiegoPerezComponent {
-  nombre = 'Diego Pérez';
-  descripcion = 'Desarrollador Frontend y amante de Angular 🚀';
-}
+export class DiegoPerezComponent {}

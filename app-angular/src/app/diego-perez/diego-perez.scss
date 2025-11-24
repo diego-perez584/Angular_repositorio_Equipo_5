@@ -1,7 +1,7 @@
 /* Fondo general de toda la vista */
 .perfil-container {
   height: 100vh; /* Ocupa toda la pantalla */
-  background-image: url('assets/img/background.jpeg');
+  background-image: url('../assets/img/background_diego.jpeg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -17,7 +17,7 @@
 
 /* Imagen circular */
 .perfil-img {
-  background-image: url('assets/img/diego.jpeg');
+  background-image: url('../assets/img/diego.jpeg');
   background-size: cover;
   background-position: center;
   width: 150px;
