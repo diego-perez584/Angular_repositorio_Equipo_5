@@ -1,0 +1,46 @@
+body {
+      height: 100vh; /* Ocupa toda la pantalla */
+      font-family: "Times New Roman", Georgia, serif;
+      background-color: #0b1d3a; /* Azul marino */
+      color: #d4af37; /* Dorado */
+      text-align: center;
+      padding: 50px;
+      margin: 0;
+      
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 40px;
+      background-color: rgba(255, 255, 255, 0.05); /* Fondo semitransparente elegante */
+      border: 2px solid #d4af37; /* Borde dorado */
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #ffd700; /* Dorado brillante */
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #d4af37;
+      font-weight: normal;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #f5e6a9; /* Dorado más suave */
+      line-height: 1.6;
+    }
+
+    .signature {
+      margin-top: 30px;
+      font-style: italic;
+      color: #e0c97f;
+    }
