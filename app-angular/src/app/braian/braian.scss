@@ -1,0 +1,25 @@
+.hero {
+  background: url('../assets/img/foto_braian.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh; /* Ocupa toda la pantalla */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 320px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
