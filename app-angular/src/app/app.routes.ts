@@ -5,6 +5,8 @@ import {Manuel} from './manuel/manuel'
 import { HomeComponent } from './home/home';
 import { SamanthaObregonComponent } from './samantha-obregon/samantha-obregon.component';
 import { BraianComponente } from './braian/braian';
+import { GladisComponentComponent } from './gladis-component/gladis-component.component';
+
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -12,5 +14,6 @@ export const routes: Routes = [
   { path: 'alejandro', component: AleComponent },
   { path: 'manuel', component: Manuel },
   { path: 'samantha', component: SamanthaObregonComponent},
-  { path: 'braian', component: BraianComponente}
+  { path: 'braian', component: BraianComponente},
+  { path: 'gladis', component: GladisComponentComponent}
 ];
