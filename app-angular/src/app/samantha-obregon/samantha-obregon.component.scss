@@ -1,0 +1,44 @@
+body, :host {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+
+  /* Degradado bonito rosa → azul */
+  background: linear-gradient(135deg, #ff6fd8, #6fb1fc);
+  min-height: 100vh;
+
+  /* Suavidad */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Caja tipo tarjeta para tu contenido */
+.contenedor {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 600px;
+  text-align: center;
+
+  /* Sombra suave */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos del botón */
+button {
+  background-color: #ffffff;
+  color: #333;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #fafafa;
+  transform: scale(1.05);
+}
